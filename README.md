@@ -12,11 +12,17 @@ Docker
 Structure
 
 cmd/subclub/ — main service
+
 internal/auth/ — user authentication
+
 internal/billing/ — Stripe integration
+
 internal/bot/ — Telegram bot logic
+
 internal/panel/ — author dashboard
+
 internal/storage/ — Redis database
+
 config/ — environment configs
 
 Quick Start
@@ -57,6 +63,9 @@ PORT=8080
 TODO
 
 Stripe webhook handling
+
 Telegram webhook implementation
+
 Author panel UI
+
 User authentication flow
