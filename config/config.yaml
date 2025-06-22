@@ -1,0 +1,10 @@
+redis:
+  addr: localhost:6379
+  pass: ""
+stripe:
+  secret: sk_test_...
+  webhook_secret: whsec_...
+telegram:
+  token: 123456:ABC-DEF...
+server:
+  port: 8080
