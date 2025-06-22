@@ -41,11 +41,17 @@ docker run --env-file=.env -p 8080:8080 subclub
 Example:
 
 REDIS_ADDR=localhost:6379
+
 REDIS_PASS=
+
 STRIPE_SECRET=sk_test_...
+
 STRIPE_WEBHOOK_SECRET=whsec_...
+
 TELEGRAM_TOKEN=123456:ABC-DEF...
+
 JWT_SECRET=supersecret
+
 PORT=8080
 
 TODO
